@@ -1,177 +1,628 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-12">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Hello, world!</title>
+     <title>Broadband</title>
      <!-- font-awesome -->
      <script src="https://kit.fontawesome.com/e819bf55fe.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-       
-    <style>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+</style>
 
-
-.teams{
-  padding-bottom: 70px;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  box-shadow: 5px 4px 15px gray;
-}
-
-.team-img{
-
-  position: relative;
-  z-index: 5;
-  overflow: hidden;
-
-
-}
-.team-img img{
-  width: 100%;
- 
-  transition: all 0.3s ease-in-out;
-
-}
-
-.teams:hover .team-img img{
-  transform: scale(1.1);
-}
-
-.team-content{
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  overflow: hidden;
-  background-color: tomato;
-  z-index: 5;
-  transition: all 0.3s ease-in-out;
-  bottom:0;
-
-}
-
-.teams:hover .team-content{
-  height: 150px;
-  background-color: black;
-  color:white;
-}
-
-
-
-
-    </style>
   </head>
   <body>
 
+<header>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-md-0">
+  <div class="container">
+    <a class="navbar-brand fs-4" href="#">Broadband</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Plans</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drop
+          </a>
+          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <li><a class="nav-link" href="#">Article Details</a></li>
+            <li><a class="nav-link" href="#">Privacy Policy</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="nav-link" href="#">Terms and Condition</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+     <div class="social ms-md-3">
+       <i class="fab fa-facebook-f "></i>
+       <i class="fab fa-twitter"></i>
+       
+       
+     </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+  <!-- banner section -->
+
+<section class="banner d-flex align-items-center text-light">
+  <div class="container">
+      <div class="row py-5 text-ligh">
+    <div class="col-12 col-md-6">
+      <h1 class="py-2 fs-1">Best <span style="color:var(--green);">Broadband</span>  <br>
+Internet Plans For You</h1>
+        <p class="py-1 lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tempore accusamus quis magnam doloremque itaque ad modi, pariatur iste labore similique officiis impedit aspernatur aperiam facere architecto. Eligendi, repellendus inventore!</p>
+        <div class="banner-icon">
+          <p class="py-1">
+            <i class="fas fa-laptop-house fa-lg"></i>
+            Lorem ipsum dolor sit amet.
+          </p>
+          
+          <p class="py-1">
+            <i class="fas fa-wifi"></i>
+            Lorem ipsum dolor sit amet.
+          </p>
+          
+        </div>
+    </div>
+
+  </div>
+  <button class="common-btn mb-5">View Plans</button>
+
+  </div>
+
+</section>
 
 
+
+<!-- speed section -->
+<section class="speed ">
+<div class="container-fluid">
+    <div class="row ">
+      <div class="col-12 col-md-4 text-center download">
+        <i class="fas fa-tachometer-alt fs-1"></i>
+        <h1>Download 1 GBPS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+      </div>
+      <div class="col-12 col-md-4 text-center uptime">
+        <i class="fas fa-clock fs-1"></i>
+        <h1>99% Internet Uptime</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+      </div>
+      <div class="col-12 col-md-4 bg-warning text-center support">
+        <i class="fas fa-headset fs-1"></i>
+        <h1>24/7 Support</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+      </div>
+    </div>
+</div>
+
+
+
+</section>
+
+
+<!-- About section -->
+
+<section class="about py-5 d-flex align-items-center">
+  <div class="container">
+    <div class="row py-5 my-5">
+      <div class="col-12 col-md-6 mt-5">
+        <h5>ABOUT US</h5>
+        <h1 class="fs-1 fw-bold lh-base">
+          We are top internet <br>
+         service company
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.
+         </p>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
+                      <p></p>
+      <button class="common-btn mt-4">Learn More</button>
+      </div>
+      <div class="col-12 col-md-6 mt-5" >
+        <img class="img-fluid" src="./wifi/about.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- service section -->
+<section class="services py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h6>OUR SERVICES</h6>
+        <h1>Explore unlimited possibilities</h1>
+        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3 text-start">
+          <div class="col ">
+            <div class="box">
+                 <i class="fa fa-home"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+         
+          <div class="col ">
+            <div class="box">
+                  <i class="fa fa-wifi"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+        
+          <div class="col ">
+            <div class="box">
+                  <i class="fa fa-phone"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+        
+          <div class="col ">
+            <div class="box">
+                 <i class="fa fa-mobile"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+         
+          <div class="col ">
+            <div class="box">
+                <i class="fa fa-home"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+          
+          <div class="col ">
+            <div class="box">
+                 <i class="fa fa-tv"></i>
+            <h5>HOME BROADBAND</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+          </div>
+            </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+ 
+<!-- plans section -->
+
+<section class="plans py-5">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col text-center">
+        <p class="display-6">OUR PLANS</p>
+        <h5>Explore unlimited possibilities</h5>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="package box py-4">
+          <h5>BASIC BUNDLE</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+       
+ 
+          <h4>$24/Month</h4>
+          <button class="common-btn"> View Plans</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="package box py-4">
+          <h5>BASIC BUNDLE</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+       
+          <h4>$99/Month</h4>
+          <button class="common-btn"> View Plans</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="package box py-4">
+          <h5>BASIC BUNDLE</h5>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="d-flex align-items-center">  
+             <i class="far fa-check-circle"></i> <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+       
+          <h4>$199/Month</h4>
+          <button class="common-btn"> View Plans</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Work section -->
+
+<section class="work py-5">
+  <div class="container-fluid">
+
+
+  <div class="row">
+    <div class=" col-12 col-md-6">
+    <img class="img-fluid" src="wifi/work.jpg" alt="">
+  </div>
+  <div class="col-12 col-md-6">
+    <h6>OUR WORK</h6>
+    <h3>Explore unlimited possibilities</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+    <div class="d-flex  justify-content-around ">
+      <div class="p-3">
+        <i class="fas fa-briefcase"></i>
+         <h3>1258</h3>
+        <h6>PROJECTS COMPLETED</h6>
+      </div>
+      <div class="p-3">
+        <i class="fas fa-award"></i>
+         <h3>150</h3>
+        <h6>AWARDS</h6>
+      </div>
+ 
+    </div>
+    <div class="d-flex  justify-content-around ">
+      <div class="p-3">
+        <i class="fas fa-users"></i>
+         <h3>1255</h3>
+        <h6>CUSTOMER ACTIVE</h6>
+      </div>
+      <div class="p-3">
+        <i class="fas fa-clock"></i>
+         <h3>1157</h3>
+        <h6>GOOD REVIEWS</h6>
+      </div>
+ 
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<!--Testimonial  -->
+
+<section class="testimonail py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h6>TESTIMONIALS</h6>
+        <h1>What Our Clients Says</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci esse facilis vel, neque ipsa mollitia impedit, commodi ab illo dignissimos, voluptatum quae amet sed tenetur dolores reprehenderit laudantium quo sint.</p>
+      </div>
+    </div>
+
+<!-- carousel -->
+  
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators" id="dot">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+
+      <div class="row ">
+        <div class=" col-12 col-md-4">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle " width="80px" src="./img/player-2.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-1.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-3.png" alt=""></div>
+              <div class="ms-4">
+                <h5 >Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+           <div class="row ">
+        <div class=" col-12 col-md-4">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle " width="80px" src="./img/player-4.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-5.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-6.png" alt=""></div>
+              <div class="ms-4">
+                <h5 >Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+           <div class="row ">
+        <div class=" col-12 col-md-4">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle " width="80px" src="./img/player-7.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-8.png" alt=""></div>
+              <div class="ms-4">
+                <h5>Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-md-4 d-none d-md-block">
+          <div class="slider-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum cum veniam voluptatem ad! Repudiandae sunt dolores eaque quisquam est fugiat.</p>
+            <div class="d-flex">
+              <div><img class=" rounded-circle" width="80px" src="./img/player-9.png" alt=""></div>
+              <div class="ms-4">
+                <h5 >Leo Mesi</h5>
+                <p>Barcelona</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ <button class="carousel-control-prev" id="prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+
+  </div>
+</section>
+
+<!--  Newsletter -->
+
+<section class=" newsletter py-5">
 <div class="container">
   <div class="row">
-    <div class="col"><h1 class="text-center text-warning p-5">Team Content</h1></div>
+  <div class="col-12 col-md-6">
+      <h3>Subscribe to our Newsletter</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deleniti nobis amet accusamus debitis facilis quibusdam officia laborum nesciunt. Nihil.</p>
   </div>
-
-<!-- team member -->
-
-<div class="row">
-  <div class="col-md-3">
-    <div class="teams" >
-      <div class="team-img">
-        <img class="" src="img/player-2.png" alt="">
-       </div>
-       <div class="team-content">
-          <div class="team-info">
-         <h2>Leo Messi</h2>
-          <h5>Web developer</h5>
-       </div>
-
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-       </div>
-     
-</div>
+  <div class="col-12 col-md-6">
+    <div class="input-group">
+       <input type="email" class=" form-control" placeholder="Enter Your Emails">
+    <button class="btn sub-btn "> Subscribe</button>
   </div>
-  <div class="col-md-3">
-    <div class="teams" >
-      <div class="team-img">
-        <img class="" src="img/player-2.png" alt="">
-       </div>
-       <div class="team-content">
-          <div class="team-info">
-         <h2>Leo Messi</h2>
-          <h5>Web developer</h5>
-       </div>
-
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-       </div>
-     
-</div>
-  </div>
-  <div class="col-md-3">
-    <div class="teams" >
-      <div class="team-img">
-        <img class="" src="img/player-2.png" alt="">
-       </div>
-       <div class="team-content">
-          <div class="team-info">
-         <h2>Leo Messi</h2>
-          <h5>Web developer</h5>
-       </div>
-
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-       </div>
-     
-</div>
-  </div>
-  <div class="col-md-3">
-    <div class="teams" >
-      <div class="team-img">
-        <img class="" src="img/player-2.png" alt="">
-       </div>
-       <div class="team-content">
-          <div class="team-info">
-         <h2>Leo Messi</h2>
-          <h5>Web developer</h5>
-       </div>
-
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-       </div>
-     
-</div>
+    </div>
+   
   </div>
 </div>
 
+</section>
 
+<!-- contact -->
+
+<section class="contact py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-light">
+        <h6>CONTACT</h6>
+        <h2>Send Your Query</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, ullam!</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-12 col-md-6 my-5">
+        <form action="">
+          <div class="row g-2">
+            <div class="col-12 col-md-6">
+              <input type="text" placeholder=" Enter Name" class="form-control">
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" placeholder=" Enter phone Number" class="form-control">
+            </div>
+            <div class="col-12">
+                <input type="text" placeholder=" Enter Email" class="form-control">
+            </div>
+            <div class="col-12">
+                <textarea name="" placeholder="Message" id="" cols="30" rows="6" class="form-control"></textarea>
+            </div>
+            <div>
+              <input type="submit" class="common-btn " value="Submit"> 
+            </div >
+
+          </div>
+
+        </form>
+      </div>
+      <div class="col-12 col-md-6">
+        <img src="wifi/contact.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- query  -->
+
+<section class=" query py-5 text-light">
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-3">
+      <div class="d-flex align-items-center ">
+        <i class=" far fa-map  fa-3x me-3"></i>   
+        <div>
+          <h5>ADDRESS</h5>
+          <p>Teuku Umar ST. 1919</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="d-flex align-items-center ">
+        <i class="fas fa-mobile-alt fa-3x me-3"></i>   
+        <div>
+          <h5>ADDRESS</h5>
+          <p>Teuku Umar ST. 1919</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="d-flex align-items-center ">
+        <i class=" far fa-envelope fa-3x me-3"></i>   
+        <div>
+          <h5>ADDRESS</h5>
+          <p>Teuku Umar ST. 1919</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="d-flex align-items-center ">
+        <i class=" far fa-clock fa-3x me-3"></i>   
+        <div>
+          <h5>ADDRESS</h5>
+          <p>Teuku Umar ST. 1919</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</section>
 
 
+</main>
 
+<!-- footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<footer class="bg-dark text-light">
+  <div class="container">
+  <div class="row">
+    <div class="col text-center pt-1">
+      <p class="p-0 m-0">Copyright &copy; By Tosir</p>
+      <small>24/07/2021</small>
+    </div>
+  </div>
+  </div>
+</footer>
 
 
 

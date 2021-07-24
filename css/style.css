@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+:root{
+    --green:limegreen;
+}
+
+/* header----------------------- */
+
+
+.social i{
+    background-color:var(--green);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    padding:;
+    text-align: center;
+    width: 25px;
+    padding:5px;
+    height:25px;
+    align-items: center;
+}
+.nav-link:hover{
+    color:var(--green) !important;
+}
+
+.banner{
+    background:url(../wifi/home.jpg);
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    min-height: 100vh;
+}
+
+.banner-icon i{
+ color:var(--green);
+ font-size:20px;
+ 
+}
+
+
+.common-btn{
+    padding:10px; 
+    background-color:transparent;
+    border: 2px solid var(--green);
+    box-shadow: 2px 5px 1px var(--green);
+    transition: all 0.3s ease-in-out;
+    color:white;
+    font-weight: 500;
+
+}
+
+.common-btn:hover{
+     box-shadow:none;
+     background-color: var(--green);
+     font-weight: 500;
+     padding:10px 15px;
+}
+
+/* speed */
+.speed .download{
+    background:#1C262F;
+    color:#fff;
+    padding: 30px;
+}
+.speed .uptime{
+    background:#212D37;
+    color:#fff;
+    padding: 30px;
+}
+.speed .support{
+
+ padding: 30px;
+}
+
+.speed i{
+    color:var(--green)
+}
+
+/* about */
+
+.about{
+color:white;
+    background: #212D37;
+}
+
+.services{
+    background: #1C262F;
+    color:white;
+}
+
+.services .box{
+    border:2px solid white;
+    padding:15px;
+    transition:border 0.3s ease;
+     border-radius: 15px;
+
+
+}
+
+
+.box i{
+    color:var(--green);
+    padding:10px;
+    font-size: 30px;
+   
+}
+
+.box:hover {
+    border:1px solid var(--green);
+    box-shadow: 2px 5px 1px var(--green);
+    
+}
+.box:hover i{
+    color:white;
+}
+.box:hover h5{
+    color:var(--green)
+}
+
+/* plans */
+.plans{
+      background: #212D37;
+      color:white;
+      }
+
+.package{
+    padding:10px;
+    border:2px solid white;
+
+}
+.package p{
+    margin:0;
+}
+.package i{
+    color:var(--green);
+    font-size: 20px;
+}
+
+
+/* works-------- */
+
+.work{
+    background: #1C262F;
+    color:white;
+}
+
+.work i{
+    color:var(--green);
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* testimonail */
+.testimonail{
+        background: #1C262F;
+        color:white;
+}
+
+
+.slider-item{
+       border:2px solid var(--green);
+       padding:15px;
+       transition:border 0.3s ease;
+       border-radius: 15px;
+}
+
+
+#dot{
+   margin:0;
+   margin-bottom: -30px;
+}
+
+#dot button{
+    width:10px;
+    height:10px;
+   background-color:var(--green);
+   border-radius:50%;
+}
+
+/* newsletter  */
+
+
+.newsletter{
+    background:#212D37;
+    color:white;
+}
+
+
+.sub-btn{
+    color:white;
+    border:2px solid var(--green)
+}
+
+.sub-btn:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+
+/* contact */
+
+.contact{
+    background-color: #1C262F;
+}
+
+
+/* query */
+.query{
+    background-color:#212D37;
+}
+
+.query i{
+    color:var(--green)
+}
