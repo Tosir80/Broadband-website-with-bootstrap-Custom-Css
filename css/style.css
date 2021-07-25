@@ -26,9 +26,17 @@
     height:25px;
     align-items: center;
 }
+
+
+
 .nav-link:hover{
     color:var(--green) !important;
 }
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link{
+        color:var(--green) !important;
+}
+
 
 .banner{
     background:url(../wifi/home.jpg);

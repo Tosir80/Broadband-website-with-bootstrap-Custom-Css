@@ -12,44 +12,44 @@
     <link rel="stylesheet" href="css/style.css">
 </style>
 
-  </head>
-  <body>
+  </head>t
+  <body data-bs-spy="scroll" data-bs-target="#navbar" >
 
 <header>
  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-md-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-md-0" >
   <div class="container">
     <a class="navbar-brand fs-4" href="#">Broadband</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar" >
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Plans</a>
+          <a class="nav-link" href="#plans">Plans</a>
         </li>
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Drop
           </a>
           <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-            <li><a class="nav-link" href="#">Article Details</a></li>
-            <li><a class="nav-link" href="#">Privacy Policy</a></li>
+            <li><a class="nav-link" href="#work">Article Details</a></li>
+            <li><a class="nav-link" href="#testimonial">Privacy Policy</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="nav-link" href="#">Terms and Condition</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
      <div class="social ms-md-3">
@@ -66,7 +66,7 @@
 <main>
   <!-- banner section -->
 
-<section class="banner d-flex align-items-center text-light">
+<section class="banner d-flex align-items-center text-light" id="home">
   <div class="container">
       <div class="row py-5 text-ligh">
     <div class="col-12 col-md-6">
@@ -125,7 +125,7 @@ Internet Plans For You</h1>
 
 <!-- About section -->
 
-<section class="about py-5 d-flex align-items-center">
+<section class="about py-5 d-flex align-items-center" id="about">
   <div class="container">
     <div class="row py-5 my-5">
       <div class="col-12 col-md-6 mt-5">
@@ -149,9 +149,9 @@ Internet Plans For You</h1>
 </section>
 
 <!-- service section -->
-<section class="services py-5">
+<section class="services py-5" id="services">
   <div class="container">
-    <div class="row">
+    <div class="row py-5">
       <div class="col text-center">
         <h6>OUR SERVICES</h6>
         <h1>Explore unlimited possibilities</h1>
@@ -216,7 +216,7 @@ Internet Plans For You</h1>
  
 <!-- plans section -->
 
-<section class="plans py-5">
+<section class="plans py-5" id="plans">
   <div class="container">
     <div class="row py-5">
       <div class="col text-center">
@@ -297,7 +297,7 @@ Internet Plans For You</h1>
 
 <!-- Work section -->
 
-<section class="work py-5">
+<section class="work py-5" id="work">
   <div class="container-fluid">
 
 
@@ -342,7 +342,7 @@ Internet Plans For You</h1>
 
 <!--Testimonial  -->
 
-<section class="testimonail py-5">
+<section class="testimonail py-5" id="testimonial">
   <div class="container">
     <div class="row">
       <div class="col text-center">
@@ -522,7 +522,7 @@ Internet Plans For You</h1>
 
 <!-- contact -->
 
-<section class="contact py-5">
+<section class="contact py-5" id="contact">
   <div class="container">
     <div class="row">
       <div class="col text-light">
@@ -548,7 +548,29 @@ Internet Plans For You</h1>
                 <textarea name="" placeholder="Message" id="" cols="30" rows="6" class="form-control"></textarea>
             </div>
             <div>
-              <input type="submit" class="common-btn " value="Submit"> 
+
+<!-- Button trigger modal -->
+<button type="button" class="common-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+    
+      <div class="modal-body ">
+           <p style="color:var(--green)" class="text-center display-6">
+          <marquee  width="60%" direction="left">Thanks for Message</marquee>
+          </p>
+           <p style="color:var(--green)" class="text-center display-1 bg">😉</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
             </div >
 
           </div>
